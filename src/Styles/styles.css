@@ -1,0 +1,426 @@
+
+
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button-Link {
+  
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20%;
+  background-color: #ddc122;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  height: 10%;
+  border-radius: 10%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-Link a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-Link a:hover{
+  background-color:rgb(16, 19, 9);
+}
+.box-text{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-family: "Roboto Slab", serif;
+    padding-right:25%;
+    margin-right: 15%;
+    color: #000000;
+  }
+  
+  .box-text p{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: right;
+    font-size: larger;
+    font-family:  "Dancing Script", cursive;;
+    color: #d8c15a;
+  }
+
+  
+  .conatainer{
+    background-image:url(./../images/hp.jpg);
+    padding: 20%;
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 5%;
+    width: 60%;
+  }
+  
+  /* -----2 par--*/
+  
+  .container-xl {
+   border-radius: 0%;
+   padding: 20px;
+    width: 100%; 
+    height: 400px;
+     max-width: 100%;
+    max-height: 100%; 
+    display: flex; 
+    justify-content: flex-end;
+    opacity: 0.1;
+    margin-left: 30px;
+  
+    
+    
+  }
+  .container-xl:hover{
+    opacity: 3;
+  }
+  
+  .container-xl p{
+   color: rgb(9, 10, 10);
+   padding: 30px;
+  margin: 30px;
+    width: 100%; 
+    height: 100%; 
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 200%;
+    font-family: "Playwrite FR Moderne", cursive;
+    text-align: left;
+    text-shadow: #020100;
+  }
+
+  
+  .card2{
+    width:15%;
+    border-radius: 10% 10%;
+    box-shadow: 0px 0px 10px 0px rgba(177, 82, 82, 0.5);
+    float:left;
+    justify-content: space-between;
+    height: 15%;
+    margin: 10px;
+    background-color:white;
+  }
+  .card-img-top{
+    width: 80%; 
+    height: 40%;
+    border-radius: 10% 10% 0 0; /* Apply border-radius only to the top */
+  }
+  
+  .card2-body {
+    padding: 20px; 
+  }
+
+  /*---4---*/
+  .container-xs{
+    background-color: #d8c15a;
+    padding: 50px;
+   text-align: center;
+    font-size: larger;
+    text-shadow: #020100;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    
+    
+   
+  }
+  .container-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8c15a;
+    height: 100vh; 
+    
+  }
+  .box img {
+    max-width: 80%;
+    height: 100%;
+    width: 100%;max-height: 80%;
+}
+  .parallax-bg {
+    background-image: url('./../images/mainban.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+/*----part 3----*/
+.container3 h2{
+  
+padding: 25px;
+  color: #5acf3c;
+  margin-bottom: .6rem;
+  font-family: "Gloria Hallelujah", cursive;
+    font-weight: bolder;
+    line-height: 1.2;
+   text-align: center;
+  
+}
+.container-title h1 {
+  padding: 20px;
+  color: #598642;
+  margin-bottom: .5rem;
+
+    font-weight: bolder;
+   
+   text-align: center;
+   font-size: 45px;
+  
+}
+/* General styles */
+.container5 {
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1;}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding: 20px;
+}
+
+.carousel-item {
+  min-width: 25%;
+  transition: transform 0.5s ease;
+  opacity: 0.2;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.product-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-product-info {
+  text-align: center;
+margin: 5px;
+  background-color:rgb(238, 204, 166);
+  border-radius: 10%;
+ padding: 1px;
+}
+
+.product-title {
+  font-size: larger;
+  font-weight: bold;
+  color: #cf3d3d;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #141210;
+  font-weight: bolder;
+}
+
+.carousel-controls{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 90%;
+  
+  
+}
+.product-description{
+  font-size: 20px;
+  color: #141210;
+}
+.carousel-controls button{
+  background-color: #ff6200;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.carousel-controls button:hover {
+  background-color: rgba(192, 126, 126, 0.7);
+}
+
+
+.parallax{
+  background-image: url("./../images/Desktop\ -\ 4.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+      
+/* For tablets and smaller screens */
+@media only screen and (max-width: 800px) {
+  .main {
+    width: 90%;
+    padding: 0;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+  .button-Link {
+    width: 50%;
+    height: auto;
+    
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    z-index: 10;
+    display: block;
+    text-align: center;
+  }
+
+  .button-Link a {
+    font-size: 12px;
+  }
+
+  .box-text {
+    padding:15px;
+    margin: 20px ;
+    font-size: small;
+    width: 50%;
+    
+  }
+
+  .box-text p {
+    font-size: small;
+    padding: 5px;
+  }
+  .box-text h1 {
+    font-size: small;
+    
+  }
+
+  .conatainer {
+
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .container-xl {
+    padding: 5px;
+    height: auto;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .container-xl p {
+    font-size: 1rem;
+    margin: 5px;
+  }
+
+  .card2 {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+  }
+
+  .container-xs {
+    padding: 10px;
+    font-size: small;
+  }
+
+  .box {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .container-s {
+    height: auto;
+    padding: 10px;
+  }
+
+  .box img {
+    max-width: 100%;
+    max-height: 50%;
+  }
+
+  .parallax-bg, .parallax {
+    height: 150px;
+  }
+
+  .container3 h2 {
+    font-size: small;
+    padding: 10px;
+  }
+
+  .container-title h1 {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .container5 {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+
+  .carousel {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .carousel-item {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .carousel-controls {
+    width: 100%;
+  }
+
+  .carousel-controls button {
+    padding: 2px;
+  }
+}

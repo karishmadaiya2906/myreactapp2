@@ -1,0 +1,56 @@
+.checkout {
+    max-width: 1200px;
+    margin: 70px;
+    padding: 60px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .checkout h1 {
+    
+    color: #333;
+    margin-bottom: 20px;
+   justify-content: center;
+    display: flex;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 800;
+   
+  }
+ .checkout h1 img{
+    width: 15%;
+    height: auto;
+    margin-left: 20px;
+ }
+  .checkout > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .checkout img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .checkout h3 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .checkout p {
+    color: #181616;
+    margin: 5px 0;
+  }
+  
+  .checkout p:last-child {
+    text-align: center;
+    color: #050101;
+    font-style: italic;
+  }
+  

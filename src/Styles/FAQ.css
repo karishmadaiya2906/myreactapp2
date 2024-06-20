@@ -1,0 +1,116 @@
+.main-container {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 30px;
+}
+.faqs {
+   align-items: flex-start;
+    width: 100%;
+    max-width: 768px;
+    margin:0p auto;
+    padding: 15px;
+  }
+  .container-right {
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 40%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 20px;
+  text-align: center;
+  }
+  .container-right h1 {
+    font-size: 1.8em;
+    color: #333; 
+    margin-bottom: 15px; 
+  }
+  
+  .container-right p {
+    font-size: 1.1em; 
+    color: #666;
+    margin-bottom: 20px; 
+  }
+  
+  .container-right input {
+    display: block; 
+    width: 80%; 
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+  }
+  
+  .container-right input:focus {
+    border-color: #1a73e8; 
+    outline: none; 
+  }
+  
+  .btn {
+    background-color: #1a73e8; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  .body {
+    margin-left: 0px;
+    padding: 50px;
+    text-align: left;
+  }
+  .faqs .faq {
+    margin: 15px;
+    padding: 15px;
+    background: #e0dcda;
+    border-radius: 10px;
+    border-color: rgb(240, 147, 71);
+    border: solid rgb(226, 131, 96);
+  }
+  
+  .faqs .faq .faq-question {
+    color: rgb(8, 8, 8);
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+    transition: all 0.4s ease;
+   
+  }
+  
+  .faqs .faq .faq-question::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease;
+   
+  }
+  
+
+  
+  .faqs .faq .faq-answer {
+   
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  
+  .faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+    font-weight: bolder;
+  }
+  
+  .faqs .faq.open .faq-question::after {
+    content: "-";
+  }
+  
+  .faqs .faq.open .faq-answer {
+    max-height: 1000px;
+    opacity: 1;
+  }
+  
