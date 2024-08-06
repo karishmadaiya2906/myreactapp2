@@ -37,7 +37,10 @@ const Header = () => {
             <li>
               <Link to={'/Checkout'}><ShoppingCartIcon/></Link>
             </li>
-
+            
+            <li>
+              <Link to={'/Appp'}>kar</Link>
+            </li>
           </ul>
         </Box>
     
@@ -74,6 +77,10 @@ const Header = () => {
             <li>
               <NavLink  activeClassName="active" to={'/Checkout'}><ShoppingCartIcon/></NavLink>
             </li>
+            <li>
+              <Link to={'/Appp'}>kar</Link>
+            </li>
+
           </ul>
         </Box>
    </Toolbar>

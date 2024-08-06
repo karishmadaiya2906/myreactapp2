@@ -4,6 +4,7 @@ import Items from './Pages/Items';
 import Checkout from './Pages/Checkout'
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Appp from './Pages/Appp'
 
 
 
@@ -20,7 +21,8 @@ function App() {
   <Route path='/Contact' element={<Contact/>}/>
   <Route path="/Items" element={<Items addProductToCart={()=>{}}/>}/>
   <Route path="/Checkout" element={<Checkout/>} />
-  
+ 
+  <Route path='/Appp' element={<Appp/>}/>
   
   
     
