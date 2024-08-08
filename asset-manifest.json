@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myreactapp2/static/css/main.dc8707eb.css",
-    "main.js": "/myreactapp2/static/js/main.ddcde8dd.js",
+    "main.js": "/myreactapp2/static/js/main.1da4be4d.js",
     "static/js/488.0fe8b397.chunk.js": "/myreactapp2/static/js/488.0fe8b397.chunk.js",
     "static/media/hp.jpg": "/myreactapp2/static/media/hp.2fc02fe91fd04cd80451.jpg",
     "static/media/Desktop - 4.jpg": "/myreactapp2/static/media/Desktop - 4.abdcbeb3af4e2267121f.jpg",
@@ -17,11 +17,11 @@
     "static/media/Maggi.jpg": "/myreactapp2/static/media/Maggi.271c7583db7c2dc7775e.jpg",
     "index.html": "/myreactapp2/index.html",
     "main.dc8707eb.css.map": "/myreactapp2/static/css/main.dc8707eb.css.map",
-    "main.ddcde8dd.js.map": "/myreactapp2/static/js/main.ddcde8dd.js.map",
+    "main.1da4be4d.js.map": "/myreactapp2/static/js/main.1da4be4d.js.map",
     "488.0fe8b397.chunk.js.map": "/myreactapp2/static/js/488.0fe8b397.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc8707eb.css",
-    "static/js/main.ddcde8dd.js"
+    "static/js/main.1da4be4d.js"
   ]
 }
